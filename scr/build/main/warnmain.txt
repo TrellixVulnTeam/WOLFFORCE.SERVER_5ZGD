@@ -1,0 +1,96 @@
+missing module named 'win32com.gen_py' - imported by win32com, c:\python3.5.3\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_win32comgenpy.py
+missing module named pyimod03_importers - imported by c:\python3.5.3\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_pkgres.py
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.requirements, pkg_resources._vendor.packaging.markers
+missing module named __builtin__ - imported by tornado.gen, pymysql._compat, pkg_resources._vendor.pyparsing
+missing module named ordereddict - imported by pkg_resources._vendor.pyparsing
+missing module named StringIO - imported by sqlalchemy.util.compat, six, pkg_resources._vendor.six
+missing module named 'com.sun' - imported by pkg_resources._vendor.appdirs
+missing module named __main__ - imported by pkg_resources
+missing module named multiprocessing.SimpleQueue - imported by multiprocessing, concurrent.futures.process
+missing module named multiprocessing.set_start_method - imported by multiprocessing, multiprocessing.spawn
+missing module named multiprocessing.get_start_method - imported by multiprocessing, multiprocessing.spawn
+missing module named multiprocessing.TimeoutError - imported by multiprocessing, multiprocessing.pool
+missing module named multiprocessing.get_context - imported by multiprocessing, multiprocessing.pool, multiprocessing.managers, multiprocessing.sharedctypes
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing, multiprocessing.connection
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing, multiprocessing.connection
+missing module named _sysconfigdata - imported by sysconfig
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern, pkg_resources
+missing module named pkg_resources.extern.appdirs - imported by pkg_resources.extern, pkg_resources
+missing module named 'pkg_resources.extern.six.moves' - imported by pkg_resources, pkg_resources._vendor.packaging.requirements
+missing module named pkg_resources.extern.six - imported by pkg_resources.extern, pkg_resources
+missing module named resource - imported by posix, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named posix - imported by os, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named _posixsubprocess - imported by subprocess, multiprocessing.util, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named 'org.python' - imported by pickle, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py, xml.sax
+missing module named readline - imported by cmd, code, pdb, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named _winreg - imported by platform, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py, pkg_resources._vendor.appdirs
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, unittest.mock, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named 'java.lang' - imported by platform, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named termios - imported by tty, getpass, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named urllib.unquote_plus - imported by urllib, sqlalchemy.util.compat
+missing module named urllib.quote - imported by urllib, sqlalchemy.util.compat
+missing module named urllib.unquote - imported by urllib, sqlalchemy.util.compat
+missing module named urllib.quote_plus - imported by urllib, sqlalchemy.util.compat, google
+missing module named urllib.urlencode - imported by urllib, tornado.httputil, tornado.web
+missing module named grp - imported by shutil, tarfile, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, distutils.util, netrc, getpass, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named ce - imported by os, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named org - imported by copy, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named _dummy_threading - imported by dummy_threading, C:\Users\likai\Desktop\WOLFFORCE.service\scr\main.py
+missing module named google.protobuf.pyext._message - imported by google.protobuf.pyext, google.protobuf.descriptor, google.protobuf.pyext.cpp_message
+missing module named google.protobuf._use_fast_cpp_protos - imported by google.protobuf, google.protobuf.internal.api_implementation
+missing module named google.protobuf.internal._api_implementation - imported by google.protobuf.internal, google.protobuf.internal.api_implementation
+missing module named BeautifulSoup - imported by google
+missing module named iconv_codec - imported by bs4.dammit
+missing module named chardet - imported by bs4.dammit
+missing module named cchardet - imported by bs4.dammit
+missing module named lxml - imported by bs4.builder._lxml
+missing module named 'html5lib.treebuilders' - imported by bs4.builder._html5lib
+missing module named 'html5lib.constants' - imported by bs4.builder._html5lib
+missing module named html5lib - imported by bs4.builder._html5lib
+missing module named urlparse - imported by tornado.escape, tornado.httputil, tornado.web, tornado.simple_httpclient, sqlalchemy.util.compat, google, tornado.websocket
+missing module named urllib2 - imported by google
+missing module named cookielib - imported by google
+missing module named backports - imported by tornado.netutil
+missing module named monotonic - imported by tornado.platform.auto
+missing module named monotime - imported by tornado.platform.auto
+missing module named fcntl - imported by asyncio.unix_events, tornado.platform.posix
+missing module named _curses - imported by curses, curses.has_key
+missing module named thread - imported by tornado.ioloop
+missing module named backports_abc - imported by tornado.gen
+missing module named singledispatch - imported by tornado.gen
+missing module named httplib - imported by tornado.httputil
+missing module named Cookie - imported by tornado.httputil, tornado.web
+missing module named cStringIO - imported by tornado.template, cPickle, sqlalchemy.util.compat
+missing module named copy_reg - imported by cStringIO, cPickle
+missing module named htmlentitydefs - imported by tornado.escape
+missing module named ConfigParser - imported by sqlalchemy.util.compat, pymysql.optionfile
+missing module named cPickle - imported by sqlalchemy.util.compat, sqlalchemy.testing.util
+missing module named Sybase - imported by sqlalchemy.dialects.sybase.pysybase
+missing module named pysqlcipher3 - imported by sqlalchemy.dialects.sqlite.pysqlcipher
+missing module named pysqlcipher - imported by sqlalchemy.dialects.sqlite.pysqlcipher
+missing module named 'com.ziclix' - imported by sqlalchemy.dialects.postgresql.zxjdbc, sqlalchemy.dialects.oracle.zxjdbc
+missing module named com - imported by sqlalchemy.connectors.zxJDBC
+missing module named postgresql - imported by sqlalchemy.dialects.postgresql.pypostgresql
+missing module named pgdb - imported by sqlalchemy.dialects.postgresql.pygresql
+missing module named 'java.sql' - imported by sqlalchemy.dialects.oracle.zxjdbc
+missing module named cx_Oracle - imported by sqlalchemy.dialects.oracle.cx_oracle
+missing module named 'google.storage' - imported by sqlalchemy.dialects.mysql.gaerdbms
+missing module named 'google.appengine' - imported by sqlalchemy.dialects.mysql.gaerdbms
+missing module named 'mysql.connector' - imported by sqlalchemy.dialects.mysql.mysqlconnector
+missing module named mysql - imported by sqlalchemy.dialects.mysql.mysqlconnector
+missing module named clr - imported by adodbapi.adodbapi
+missing module named System - imported by adodbapi.adodbapi
+missing module named process_connect_string - imported by adodbapi.adodbapi
+missing module named apibase - imported by adodbapi, adodbapi.adodbapi
+missing module named 'mx.ODBC' - imported by sqlalchemy.connectors.mxodbc
+missing module named mx - imported by sqlalchemy.connectors.mxodbc
+missing module named psycopg2 - imported by sqlalchemy.dialects.postgresql.psycopg2, sqlalchemy
+missing module named pysqlite2 - imported by sqlalchemy.dialects.sqlite.pysqlite, sqlalchemy
+missing module named asyncio.DefaultEventLoopPolicy - imported by asyncio, asyncio.events
+missing module named hiredis - imported by asyncio_redis.protocol
+missing module named trollius - imported by tornado.platform.asyncio

@@ -1,0 +1,125 @@
+{
+	"server": {
+		"port": 10040,
+		"debug": true,
+		"enable_get": true,
+		"session_expire_time": 900,
+		"log": {
+			"enabled": true,
+			"path": "./log/"
+		}
+	},
+	"mysql": [{
+			"host": "192.168.1.76",
+			"port": 3306,
+			"user": "root",
+			"passwd": "cherish!123",
+			"name": "wolfforce",
+			"id": 1,
+			"charset": "utf8",
+			"maxpoolsize": 20
+		}
+		
+	],
+	"request_params" :{
+		"user":{
+			"send_verify_code": {
+				"need_session": false,
+				"params": {
+					"mobile": "str"
+				}
+			},
+			"register_user":{
+				"need_session": false,
+				"params": {
+					"mobile": "str",
+					"code":"str",
+					"username":"str",
+					"password":"str"
+				}
+			},
+			"login_with_verify_code": {
+				"need_session": false,
+				"params": {
+					"mobile": "str",
+					"code": "str"
+				}
+			},
+			"login_with_username_and_password": {
+				"need_session": false,
+				"params": {
+					"username": "str",
+					"password": "str"
+				}
+			},
+			"get_user_info":{
+				"need_session": true,
+				"params": {}
+			},
+			"update_user_info":{
+				"need_session": true,
+				"params": {
+					"username":"str",
+					"password":"str",
+					"store":"str",
+					"icon":"str"
+				}
+			},
+			"add_user_information":{
+				"need_session":true,
+				"params":{
+					"loginAccount":"str",
+					"password":"str",
+					"nickName":"str",
+					"name":"str",
+					"sex":"int",
+					"birthday":"str",
+					"icon":"str",
+					"signature":"str",
+					"mobile":"str",
+					"province":"int",
+					"city":"int",
+					"district":"int"
+				}
+			},
+			"update_user_information":{
+				"need_session":true,
+				"params":{
+					"id":"int",
+					"loginAccount":"str",
+					"password":"str",
+					"nickName":"str",
+					"name":"str",
+					"sex":"int",
+					"birthday":"str",
+					"icon":"str",
+					"signature":"str",
+					"mobile":"str",
+					"province":"int",
+					"city":"int",
+					"district":"int"	
+				}
+			},
+			"delete_user_information":{
+				"need_session":true,
+				"params":{
+					"id":"int"
+				}
+			}
+		},
+		"ranking":{
+			"upload_performance":{
+				"need_session":true,
+				"params":{
+					"score":"str",
+					"kill_number":"str",
+					"continue_time":"str"
+				}
+			},
+			"get_ranking":{
+				"need_session":true,
+				"params":{}
+			}
+		}
+	}
+}
