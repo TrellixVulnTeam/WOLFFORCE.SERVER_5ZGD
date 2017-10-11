@@ -43,3 +43,9 @@ class TableSet(object):
 			Column('death_number', Integer, nullable = True),
 			Column('updata_time', DateTime, nullable = True)
 		)
+
+		TableSet.control = Table(
+			'switch', metadata,
+			Column('id', Integer, primary_key = True, nullable = False),
+			Column('off_or_on', Integer, primary_key = True, nullable = False)
+		)

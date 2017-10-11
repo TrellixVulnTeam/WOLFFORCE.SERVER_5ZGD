@@ -79,6 +79,10 @@ class SocketClientManager(object):
 			if k != excepted_name:
 				v.write_message(message, binary = True)
 
+	def send_message_to_all(self, message): #发送消息给除了自己以外的所有人
+		for k, v in self.__clients.items():
+			v.write_message(message, binary = True)
+	
 	def send_message_to_sender(self, excepted_name, message):  # 发送消息给发送者
 		for k, v in self.__clients.items():
 			if k == excepted_name:
@@ -128,6 +132,8 @@ class WebSocketHandle(WebSocketHandler):
 
 				Debug.log('All Clienk ' + str(WebSocketHandle.__client_manager.get_client_list()))
 				Debug.log('get login req from ' + self.__name)
+			elif message[1] == 0x05:	#0x05代表着，主机关闭所有客户端的游戏
+				WebSocketHandle.__client_manager.send_message_to_all(1) #给所有客户端发送 1 代表着 结束游戏
 
 		#	if message[1] == 0x03:   #武器数据
 		#		weapon_data = WeaponInfo()

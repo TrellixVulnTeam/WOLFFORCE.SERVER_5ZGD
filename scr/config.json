@@ -10,7 +10,7 @@
 		}
 	},
 	"mysql": [{
-			"host": "192.168.1.76",
+			"host": "180.76.169.55",
 			"port": 3306,
 			"user": "root",
 			"passwd": "cherish!123",
@@ -118,6 +118,21 @@
 			},
 			"get_ranking":{
 				"need_session":true,
+				"params":{}
+			}
+		},
+		"control":{
+			"change_game_state":
+			{
+				"need_session":false,
+				"params":{
+
+					"off":"str"
+				}
+			},
+			"get_game_state":{
+
+				"need_session":false,
 				"params":{}
 			}
 		}

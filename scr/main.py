@@ -16,8 +16,10 @@ from tornado.platform.asyncio import AsyncIOMainLoop
 from tornado.web import Application, RequestHandler
 from tornado.httpclient import AsyncHTTPClient
 from tornado.simple_httpclient import SimpleAsyncHTTPClient
+
 from handlers.user import UserHandler
 from handlers.ranking import RankingHandler
+from handlers.control import ControlHandler
 
 from common.utils import Debug, TimeUtils, md5hash
 from common.database import MySQL
